@@ -1,0 +1,13 @@
+Coloca en esta carpeta tus CV en PDF, con estos nombres exactos
+(son los que ya apuntan las 12 paginas del sitio):
+
+  cv-docente-universitario.pdf     <- usado por UMA, KEY, ITCA, AVANZA, UCA, UJMD
+  cv-ciencia-de-datos.pdf          <- usado por DELSUR-GMI, AAC, ADOC
+  cv-analista-compra-energia.pdf   <- usado por DELSUR-ACE
+  cv-ingeniero-electricista.pdf    <- usado por CEL
+  cv-desarrollador-fullstack.pdf   <- usado por GOES
+
+Si un nombre no coincide exactamente, el visor de la pagina saldra vacio
+y el boton de descarga dara error 404.
+
+Este archivo puede borrarse una vez subidos los PDF.
