@@ -1,13 +1,20 @@
-Coloca en esta carpeta tus CV en PDF, con estos nombres exactos
-(son los que ya apuntan las 12 paginas del sitio):
+Carpeta de CV en PDF del sitio.
 
-  cv-docente-universitario.pdf     <- usado por UMA, KEY, ITCA, AVANZA, UCA, UJMD
-  cv-ciencia-de-datos.pdf          <- usado por DELSUR-GMI, AAC, ADOC
-  cv-analista-compra-energia.pdf   <- usado por DELSUR-ACE
-  cv-ingeniero-electricista.pdf    <- usado por CEL
-  cv-desarrollador-fullstack.pdf   <- usado por GOES
+YA ESTAN SUBIDOS:
+  cv-general.pdf            <- CV general (respaldo de las paginas cuya version
+                               especifica todavia no exista)
+  cv-ciencia-de-datos.pdf   <- Ciencia de datos / Analista programador
+                               (usado por DELSUR-GMI, AAC y ADOC)
 
-Si un nombre no coincide exactamente, el visor de la pagina saldra vacio
-y el boton de descarga dara error 404.
+OPCIONALES (si los subes con el nombre exacto, cada pagina usa su version):
+  cv-docente-universitario.pdf     <- UMA, KEY, ITCA, AVANZA, UCA, UJMD
+  cv-analista-compra-energia.pdf   <- DELSUR-ACE
+  cv-ingeniero-electricista.pdf    <- CEL
+  cv-desarrollador-fullstack.pdf   <- GOES
 
-Este archivo puede borrarse una vez subidos los PDF.
+Mientras una version no exista, esa pagina descarga cv-general.pdf: ningun
+boton de descarga queda roto.
+
+Regla: el nombre debe coincidir EXACTAMENTE (minusculas, guiones).
+
+Este archivo puede borrarse cuando ya no lo necesites.
