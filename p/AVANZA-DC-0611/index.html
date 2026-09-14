@@ -15,23 +15,28 @@ header h1{margin:0 0 6px;font-size:1.45rem;letter-spacing:-.01em}
 header p{margin:0;color:var(--gris)}
 .card{background:#fff;border:1px solid var(--borde);border-radius:14px;padding:20px;margin-top:18px;box-shadow:0 1px 2px rgba(16,32,48,.04)}
 .card h2{margin:0 0 10px;font-size:1.05rem}
-.btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
-a.btn{display:inline-block;padding:12px 18px;border-radius:10px;background:var(--acento);color:#fff;text-decoration:none;font-weight:600}
-a.btn.sec{background:#fff;color:var(--acento);border:1px solid var(--acento)}
+.btns{display:flex;flex-wrap:nowrap;gap:8px;margin-top:16px;overflow-x:auto;padding-bottom:3px}
+a.btn{display:inline-flex;align-items:center;flex:0 0 auto;white-space:nowrap;padding:10px 14px;border-radius:9px;
+  font-size:.87rem;background:var(--acento);color:#fff;text-decoration:none;font-weight:600;border:1px solid transparent}
+a.btn.sec{background:var(--acento);color:#fff;border-color:transparent}
+a.btn.li{background:#0A66C2;color:#fff}
+a.btn.mail{background:#eef2f6;color:var(--tinta);border-color:var(--borde)}
 a.btn:hover{filter:brightness(1.08)}
+@media (max-width:700px){.btns{flex-wrap:wrap;overflow-x:visible}}
 iframe{width:100%;height:78vh;min-height:420px;border:1px solid var(--borde);border-radius:12px;background:#fff;margin-top:14px}
 .ref{display:inline-block;font:600 12px/1 ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:.06em;color:var(--gris);background:#eef2f6;border-radius:999px;padding:7px 11px;margin-top:12px}
 ul.limpia{margin:8px 0 0;padding-left:20px;color:var(--gris)}
 footer{margin-top:24px;color:var(--gris);font-size:.84rem}
 .cod{font:600 13px/1.4 ui-monospace,Consolas,monospace}
-.wa-ico{display:inline-block;vertical-align:-6px;margin-right:8px}
+.wa-ico{display:inline-block;vertical-align:middle}
+.btn .wa-ico{width:19px;height:19px;margin-right:7px}
 a.btn.wa{background:#25D366;color:#fff;border-color:#25D366}
 a.btn.wa:hover{filter:brightness(1.07)}
 .wa-float{position:fixed;right:18px;bottom:18px;z-index:90;display:flex;align-items:center;
   background:#25D366;color:#fff;text-decoration:none;font-weight:700;font-size:.95rem;
   border-radius:999px;padding:10px 18px 10px 11px;box-shadow:0 8px 22px rgba(0,0,0,.24)}
 .wa-float:hover{filter:brightness(1.07)}
-.wa-float .wa-ico{margin-right:8px;vertical-align:middle}
+.wa-float .wa-ico{width:26px;height:26px;margin-right:8px;vertical-align:middle}
 @media (max-width:560px){.wa-float .wa-txt{display:none}.wa-float{padding:11px}}
 @media print{.btns,footer,.wa-float{display:none}iframe{height:auto;border:0}}
 </style>
@@ -48,7 +53,7 @@ a.btn.wa:hover{filter:brightness(1.07)}
   <h2>Hoja de vida</h2>
   <p style="margin:0;color:var(--gris)">Puesto de interés: <strong>Desarrollador Curricular</strong></p>
   <div class="btns">
-    <a class="btn" href="../../cv/cv-general.pdf" download>Descargar CV (PDF)</a>
+    <a class="btn" href="../../cv/cv-general.pdf" download>Descargar PDF</a>
     <a class="btn sec" href="../../cv/cv-general.pdf" target="_blank" rel="noopener">Abrir en otra pestaña</a>
     <a class="btn wa" href="https://wa.me/50371803234?text=Hola%2C%20%C2%BFComo%20puedo%20ayudarle%3F%20%28Ref.%20AVANZA-DC-0611%29" target="_blank" rel="noopener"><svg class="wa-ico" viewBox="0 0 32 32" width="26" height="26" aria-hidden="true" focusable="false">
     <circle cx="16" cy="16" r="15" fill="#25D366"/>
@@ -58,13 +63,13 @@ a.btn.wa:hover{filter:brightness(1.07)}
     <circle cx="16" cy="15.7" r="1.25" fill="#25D366"/>
     <circle cx="19.8" cy="15.7" r="1.25" fill="#25D366"/>
   </svg><span>WhatsApp</span></a>
-    <a class="btn sec" href="https://www.linkedin.com/in/rene-antonio-iraheta-reyes-4b155316b/" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn li" href="https://www.linkedin.com/in/rene-antonio-iraheta-reyes-4b155316b/" target="_blank" rel="noopener">LinkedIn</a>
   </div>
   <iframe src="../../cv/cv-general.pdf" title="Hoja de vida en PDF"></iframe>
 </div>
 
 <footer>
-  Si el visor no muestra el documento, usa el botón «Descargar CV (PDF)».<br>
+  Si el visor no muestra el documento, usa el botón «Descargar PDF».<br>
   tono2012@outlook.es · https://www.linkedin.com/in/rene-antonio-iraheta-reyes-4b155316b/
 </footer>
 </div>
